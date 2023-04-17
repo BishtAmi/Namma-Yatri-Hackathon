@@ -1,0 +1,54 @@
+.namobook {
+  padding: 5px 20px;
+  background-color: gray;
+  height: 800px;
+  width: 700px;
+  position: fixed;
+  top: 30%;
+  left: 40%;
+  margin-top: -100px;
+  margin-left: -200px;
+}
+.namologin {
+  padding: 5px 20px;
+  background-color: gray;
+  height: 300px;
+  width: 700px;
+  position: fixed;
+  top: 30%;
+  left: 40%;
+  margin-top: -100px;
+  margin-left: -200px;
+}
+.namosign {
+  padding: 5px 20px;
+  background-color: gray;
+  height: 500px;
+  width: 700px;
+  position: fixed;
+  top: 30%;
+  left: 40%;
+  margin-top: -100px;
+  margin-left: -200px;
+}
+.namoHome {
+  padding: 5px 20px;
+  background-color: gray;
+  height: 250px;
+  width: 400px;
+  position: fixed;
+  top: 40%;
+  left: 85%;
+  margin-top: -100px;
+  margin-left: -200px;
+}
+
+.info {
+  size: 40px;
+}
+.namo fieldset {
+  margin: 20px 0;
+}
+.namo h1 {
+  color: goldenrod;
+}
