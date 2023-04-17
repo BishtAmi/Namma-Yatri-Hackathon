@@ -1,0 +1,38 @@
+<div className="namo">
+    <h1>Namma Yatri</h1>
+    <form onSubmit={handelsubmit}>
+      <fieldset>
+        <h2>Book a ride</h2>
+        <div className="info">
+          <label>
+            <input type="name" placeholder="Name" required />
+          </label>{" "}
+          <br></br>
+          <label>
+            <input type="phonenumber" placeholder="Ph. No" required />
+          </label>
+          <br></br>
+          <label>
+            <input type="email" placeholder="email" required />
+          </label>
+          <br></br>
+          <label>
+            <input type="location" placeholder="pickup location" required />
+          </label>
+          <br></br>
+          <label>
+            <input type="location" placeholder="dropout location" required />
+          </label>
+          <br></br>
+          <label>
+            <input placeholder="Date" type="date" required />
+          </label>
+          <label>
+            <input type="time" placeholder="time" required />
+          </label>
+          <br></br>
+        </div>
+      </fieldset>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
