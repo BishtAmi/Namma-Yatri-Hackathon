@@ -12,7 +12,7 @@ const Booking = () => {
   "
   ></div>;
   return (
-    <div className="namobook">
+    <div className="namobook">  
       <div class="mb-6 text-center">
         <h2>Booking</h2>
       </div>
