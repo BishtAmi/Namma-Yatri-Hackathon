@@ -14,18 +14,12 @@ const Signup = () => {
       <Form onSubmit={handelsubmit}>
         <Form.Group controlId="form.name">
           <Form.Label>Name</Form.Label>
-          <Form.Control
-            type="Name"
-            labelStyle="floating"
-            placeholder="Amit"
-            required
-          ></Form.Control>
+          <Form.Control type="Name" placeholder="Amit" required></Form.Control>
         </Form.Group>
         <Form.Group controlId="form.ph">
           <Form.Label>Phone</Form.Label>
           <Form.Control
             type="phonenumber"
-            labelStyle="floating"
             placeholder="94105830XX"
             required
           ></Form.Control>
@@ -34,28 +28,17 @@ const Signup = () => {
           <Form.Label>Email</Form.Label>
           <Form.Control
             type="email"
-            labelStyle="floating"
             placeholder="ami@gmail.com"
             required
           ></Form.Control>
         </Form.Group>
         <Form.Group controlId="email">
           <Form.Label>Password</Form.Label>
-          <Form.Control
-            type="password"
-            labelStyle="floating"
-            placeholder=""
-            required
-          ></Form.Control>
+          <Form.Control type="password" placeholder="" required></Form.Control>
         </Form.Group>
         <Form.Group controlId="email">
           <Form.Label>Confirm Password</Form.Label>
-          <Form.Control
-            type="password"
-            labelStyle="floating"
-            placeholder=""
-            required
-          ></Form.Control>
+          <Form.Control type="password" placeholder="" required></Form.Control>
         </Form.Group>
         <Form.Group>
           <div class="mb-6 text-center">

@@ -2,9 +2,15 @@ import "bootstrap/dist/css/bootstrap.css";
 import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
-    <div>
-      <nav class="navbar navbar-expand -md navbar-light pt-5 pb-4">
-        <Link class="navbar-brand" to="/" ><h2>Namma Yatri</h2></Link>
+    <div className="nav-css">
+      <nav class="navbar navbar-expand -md navbar-light">
+        <Link class="navbar-brand" to="/">
+          <div>
+            <div className="div">
+              <img src="https://nammayatri.in/logos/nammaYatrilogo.svg"></img>
+            </div>
+          </div>
+        </Link>
         {/* toggle button for mobile nav */}
         <button
           class="navbar-toggler"
@@ -22,26 +28,31 @@ const Navbar = () => {
           id="main-nav"
         >
           <ul class="navbar-nav">
-            <li class="nav-item">
-              <Link class="nav-link" to="/Booking">Book a ride</Link>
-            </li>
-            <li class="nav-item">
-              <Link class="nav-link" to="/Login">
-                Login
+            <li className="list">
+              <Link class="nav-link" to="/Booking">
+                <a className="list">Book a ride</a>
               </Link>
             </li>
             <li class="nav-item">
+              <Link class="nav-link" to="/Login">
+                <a className="list"> Login</a>
+              </Link>
+            </li>
+            <li class="nav-item" className="list">
               <Link class="nav-link" to="/Signup">
-                Sign-up
+                <a className="list"> Sign-up</a>
               </Link>
             </li>
             <li class="nav-item d-md-none">
               <a class="nav-link" href="#pricing">
-                Get in Touch
+                <a className="list"> Get in Touch</a>
               </a>
             </li>
-            <li class="nav-item ms-2 d-none d-md-inline">
-              <a class="btn btn-secondary" href="https://play.google.com/store/apps/details?id=in.juspay.nammayatri&hl=en_IN&gl=US">
+            <li class="nav-item ms-2 d-none d-md-inline" className="list">
+              <a
+                class="btn btn-secondary"
+                href="https://play.google.com/store/apps/details?id=in.juspay.nammayatri&hl=en_IN&gl=US"
+              >
                 Download App
               </a>
             </li>
