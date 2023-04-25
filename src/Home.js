@@ -1,11 +1,10 @@
 import React from "react";
 import { Form } from "react-bootstrap";
+import useFetch from "./useFetch";
 const Home = () => {
   return (
     <div>
-      <img
-        src=""
-      ></img>
+      <img src=""></img>
       <Form>
         <div className="namoHome">
           <h3>Get an Instant Ride</h3>

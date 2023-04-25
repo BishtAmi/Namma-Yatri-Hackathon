@@ -5,6 +5,7 @@ import Navbar from "./Navbar";
 import Home from "./Home";
 import Login from "./Login";
 import Signup from "./Signup";
+import { useEffect, useState } from "react";
 // import Demo from "./Demo";
 function App() {
   return (
@@ -19,15 +20,14 @@ function App() {
             <Booking />
           </Route>
           <Route path="/Login">
-            <Login/>
+            <Login />
           </Route>
           <Route path="/Signup">
-           <Signup/>
+            <Signup />
           </Route>
         </Switch>
       </div>
     </Router>
   );
 }
-
 export default App;

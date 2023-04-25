@@ -1,0 +1,34 @@
+{
+  "book": [
+    {
+      "id": 1,
+      "name": "hey",
+      "phone": "i m human",
+      "email": "amit",
+      "pickup": 2,
+      "dropout": 4,
+      "time": 11,
+      "date": 10
+    },
+    {
+      "name": "ssd",
+      "phone": "585888",
+      "email": "w@gmail.com",
+      "pickup": "amm",
+      "dropout": "aaa",
+      "time": "122",
+      "date": "2023-04-14",
+      "id": 2
+    },
+    {
+      "name": "ssd",
+      "phone": "585888",
+      "email": "w@gmail.com",
+      "pickup": "manan",
+      "dropout": "almora",
+      "time": "23:12",
+      "date": "2023-04-22",
+      "id": 3
+    }
+  ]
+}
